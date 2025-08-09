@@ -1,0 +1,14 @@
+
+const LoginForm = () => {
+  return (
+    <form action="" className="flex flex-col gap-7">
+      <div className="flex flex-col gap-2">
+        <label htmlFor="">Email or username</label>
+        <input className="border-[1px] p-3 w-[350px] rounded-md" type="email" placeholder="Email or username"/>
+      </div>
+      <button className="bg-[#1ED760] w-[350px] p-3 rounded-[30px] text-black">Continue</button>
+    </form>
+  )
+}
+
+export default LoginForm
