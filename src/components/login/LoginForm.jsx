@@ -6,7 +6,7 @@ const LoginForm = () => {
         <label htmlFor="">Email or username</label>
         <input className="border-[1px] p-3 w-[350px] rounded-md" type="email" placeholder="Email or username"/>
       </div>
-      <button className="bg-[#1ED760] w-[350px] p-3 rounded-[30px] text-black">Continue</button>
+      <button className="bg-[#1ED760] w-[350px] p-3 rounded-[30px] text-black cursor-pointer">Continue</button>
     </form>
   )
 }
