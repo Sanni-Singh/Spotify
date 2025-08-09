@@ -1,10 +1,12 @@
-import React from 'react'
+import spotifyLogo from '../../assets/Images/spotifyLogo.png'
 
 const Navbar = () => {
   return (
-    <div>
-      
-    </div>
+   <nav className='bg-black'>
+   <div>
+     {/* <img src={spotifyLogo} alt="logo"/> */}
+   </div>
+   </nav>
   )
 }
 
