@@ -15,7 +15,7 @@ const LoginPage = () => {
           <LoginOption />
           <hr className="border-t border-[#333] w-full" />
           <LoginForm />
-          <p className="text-[#807b7b]">Don't have an account? <span className="underline text-white cursor-pointer">Sign up for Spotify</span></p>
+          <p className="text-[#807b7b] pb-4">Don't have an account? <span className="underline text-white cursor-pointer">Sign up for Spotify</span></p>
         </div>
       </div>
       <LoginFooter />
