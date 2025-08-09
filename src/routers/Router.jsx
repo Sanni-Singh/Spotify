@@ -3,24 +3,29 @@ import HomePage from "../pages/HomePage";
 import MainLayout from "../layout/MainLayout";
 import LoginPage from "../pages/LoginPage";
 import SignPage from "../pages/SignPage";
+import Support from "../components/support/Support";
 
 export const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <MainLayout />,
     children: [
       {
-        path: "/",
+        path: '/',
         element: <HomePage />,
       },
     ],
   },
   {
-    path:'/login',
-    element:<LoginPage />
+    path: '/login',
+    element: <LoginPage />,
   },
   {
-    path:'/signup',
-    element:<SignPage />
-  }
+    path: '/signup',
+    element: <SignPage />,
+  },
+  {
+    path: '/support',
+    element: <Support />,
+  },
 ]);
