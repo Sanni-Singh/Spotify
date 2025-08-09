@@ -13,7 +13,7 @@ const Navbar = () => {
                 <img src={spotifyLogo} alt="logo" className="w-full h-auto" />
             </div>
 
-            <div className="flex justify-center gap-2 items-center flex-1 max-w-[700px] lg:ml-50 w-full md:w-auto mt-2 md:mt-0">
+            <div className="flex justify-center gap-2 items-center flex-1 max-w-[700px] lg:ml-50 w-full md:w-auto mt-2">
                 <div className="bg-[#252525] w-[50px] h-[50px] p-2 flex justify-center items-center rounded-full cursor-pointer text-gray-300 hover:text-white">
                     <GrHomeRounded size={25} />
                 </div>
@@ -30,10 +30,15 @@ const Navbar = () => {
             </div>
 
       
-            <div className="flex items-center gap-4 sm:gap-6 md:gap-8 mt-2 md:mt-0">
-                <div className="hidden lg:flex items-center cursor-pointer text-gray-300 hover:text-white text-sm md:text-[15px] hover:text-[16px]">
+            <div className="flex items-center gap-4 sm:gap-6 md:gap-8 mt-2">
+              <div>
+                <button className="p-[5px] px-4 rounded-3xl bg-white text-black font-bold text-[14px] hover:bg-[#eeeeee] cursor-pointer">
+                  Explore Premium
+                </button>
+              </div>
+                <div className="hidden lg:flex items-center cursor-pointer text-gray-300  hover:text-white text-sm md:text-[15px] hover:text-[16px]">
                     <FiArrowDownCircle className="text-lg md:text-xl mr-1 md:mr-2" />
-                    Install App
+                  <h1 className="hidden md:block" >Install App</h1>
                 </div>
                 <GoBell className="cursor-pointer text-gray-300 hover:text-white text-lg md:text-xl" />
                 <FaUserFriends className="cursor-pointer text-gray-300 hover:text-white text-lg md:text-xl" />
