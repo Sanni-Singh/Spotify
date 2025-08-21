@@ -28,8 +28,8 @@ const Navbar = () => {
                     <IoMdBrowsers className="hidden sm:block text-lg md:text-xl cursor-pointer" />
                 </div>
             </div>
-
-      
+   
+   
             <div className="flex items-center gap-4 sm:gap-6 md:gap-8 mt-2">
               <div>
                 <button className="p-[5px] px-4 rounded-3xl bg-white text-black font-bold text-[14px] hover:bg-[#eeeeee] cursor-pointer">
@@ -48,7 +48,6 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-
         </nav>
     );
 };
